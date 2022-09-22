@@ -15,3 +15,14 @@ const productos=[
     }
     const texto = document.querySelector("h2").textContent="Lista del Mercado";
 console.log(texto)
+
+const boton = document.querySelector('button');
+const parrafo = document.querySelector('p')
+
+let Contador = 0;
+
+boton.addEventListener('click', () => {
+    console.log("click");
+    Contador++;
+    parrafo.textContent = Contador;
+});

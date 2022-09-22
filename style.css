@@ -18,6 +18,12 @@ h3{
     color: rgba(71, 79, 116, 0.753);
 }
 
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgba(71, 79, 116, 0.753);
+}
+
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
